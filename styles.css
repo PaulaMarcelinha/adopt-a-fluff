@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+
+#title {
+text-shadow: 4px 4px #B9C8D2; 
+text-align: center;
+font-family: 'Indie Flower';
+font-size: 50px;
+margin-bottom: auto    
+}
+
+header {
+    background-image: url("grass.png");
+    background-repeat: repeat-x;
+    position: relative;
+    background-image: url("grass.png"), linear-gradient(rgb(1, 21, 198), rgb(68, 83, 222), rgb(159, 167, 240));
+   
+}
+
+
+.dog, .cat, .ferret, .bunny {
+    width: auto;
+    height: 70px;
+    text-align: center;
+    
+}
+
+body {
+    background-image: linear-gradient(rgba(255,0,0,0), rgba(255,0,0,.5));
+}
+
+.adoptme {
+    width: auto;
+    height: 400px;
+}
+
+footer {
+    display: block;
+    text-align: right;
+    font-family: 'Indie Flower';
+}
+
+/*Form split*/
+
+
+.formAboutYou {
+    width: 30%;
+    height: 50%;
+    float: left;
+    border-collapse: collapse;
+    border-right: dotted;
+    border-bottom: dotted;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.aboutyourhome {
+    width: 30%;
+    height: 50%;
+    float: left;
+    border-collapse: collapse;
+    border-right: dotted;
+    padding: 10px;
+}
+
+.aboutyourbestfriend {
+    width: 30%;
+    height: 50%;
+    float: right;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.signup {
+  width: 7.5%;
+  height: 50%;
+ }
+
+.btn {
+    text-align: center;
+    width: 30%;
+    height: 50%;
+    float: left;
+    padding: 10px;
+    
+}
+.submitbtn {
+    padding: .60rem;
+  background-color: lightgray;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* question titles/items */
+.petquest { 
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+  }
+
+.formtitle {
+    font-family: 'Indie Flower';
+    text-align: center;
+    font-weight: bolder;
+}
+
+.petquest {
+    font-weight: bold;
+}
+
+.input-textarea {
+  min-height: 100px;
+  width: 100%;
+  padding: 0.5rem
+}
+
+
+.error  {
+    color: red;
+    display: inline;
+}
+
+.input-checkbox {
+    display: inline;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: rgb(224, 224, 224);
+    font-size: 12px;
+}
+
+span {
+    font-style: italic;
+}
+
+#fname, #lname, #birthday, #gender, #numAdults, #gardensize, #bedrooms {
+    width: 300px;
+
+}
+
